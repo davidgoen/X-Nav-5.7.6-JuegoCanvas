@@ -121,6 +121,8 @@ var reset = function () {
 	//princess.x = 32 + (Math.random() * (canvas.width - 64));
 	//princess.y = 32 + (Math.random() * (canvas.height - 64));
 
+	princess.x=460;
+
 	if(princess.x<25){
 		princess.x=25;
 	}
